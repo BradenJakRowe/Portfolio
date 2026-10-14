@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .brand{
+    font-family: 'Space Grotesk', sans-serif;
+}

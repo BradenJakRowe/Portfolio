@@ -20,7 +20,6 @@ No build tools or package installation are required.
 
 ### Improvements required
 
-- **Stylesheet link** — allow for more in-depth styling of the web application.
 - **Responsive design** — adapts to desktop, tablet and mobile screens.
 - **About section** — introduces my background and technical interests.
 - **Project showcase** — displays selected software development and machine learning projects.

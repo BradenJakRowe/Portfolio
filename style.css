@@ -1,3 +1,14 @@
+:root{
+    --bg: #F5F7FB;
+    --text: #172033;
+    --accent: #315CE8;
+    --surface: #11182b;
+    --muted: #a8b2cb;
+    --line: #28324C;
+    --surface-2: #171F35;
+    --surface: #11182B;
+}
+
 body {
     margin: 0;
     background: var(--bg);
@@ -8,3 +19,4 @@ body {
 h1, h2, h3, .brand{
     font-family: 'Space Grotesk', sans-serif;
 }
+

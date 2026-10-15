@@ -16,7 +16,64 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3, .brand{
+h1, h2, h3, .home-button, .nav-links li a {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs-graduate p{
+    font-size: 1.05rem;
+    line-height: 1.8;
+    display:flex;
+    align-items: center;
+    gap:1px;
+    text-decoration: bold;
+}
+
+.cs-graduate p::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height:2px;
+    background-color:#172033;
+    margin-right: 12px;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.nav-links {
+    list-style-type:none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-links li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home-button {
+    background-color:#F5F7FB;
+    color:#172033;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.home-button a:hover {
+    background-color:#315CE8;
+    color: white;
+    
+}
+
+.nav-links li a:hover {
+    background-color:#315CE8;
+    color: white;
+}

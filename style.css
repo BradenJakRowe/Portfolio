@@ -2,11 +2,10 @@
     --bg: #F5F7FB;
     --text: #172033;
     --accent: #315CE8;
-    --surface: #11182b;
-    --muted: #a8b2cb;
-    --line: #28324C;
-    --surface-2: #171F35;
-    --surface: #11182B;
+    --surface: #FFFFF;
+    --muted: #64748B;
+    --line: #E2E9F0;
+    --surface-2: #f1f5f9;
 }
 
 body {
@@ -25,7 +24,7 @@ h1, h2, h3, .home-button, .nav-links li a {
     justify-content: space-between;
 }
 
-.cs-graduate p{
+.intro-section p{
     font-size: 0.9rem;
     font-weight: 500;
     border-radius: 50px;
@@ -40,7 +39,7 @@ h1, h2, h3, .home-button, .nav-links li a {
     text-decoration: bold;
 }
 
-.cs-graduate p::before{
+.intro-section p::before{
     content: "";
     display: inline-block;
     width: 20px;
@@ -99,4 +98,47 @@ h1, h2, h3, .home-button, .nav-links li a {
     gap:10px;
     color: #475569;
     
+}
+
+.project-card {
+    background-color: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(23, 32, 51, 0.05);
+}
+.project-card .project-features {
+    padding-left: 20px;
+    margin: 8px 0 14px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.8;
+
+}
+.project-card .project-features li {
+    padding-left: 3px;
+    margin-bottom: 3px;
+    color: var(--text);
+
+}
+
+.project-card .project-description {
+    color: var(--text);
+    font-weight : 700;
+    margin: 14px 0 6px;
+    font-size: 0.9rem;
+
+}
+
+
+.project-card .skill-list span{
+    display: inline-block;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text);
+    border-radius: 8px;
+    padding: 6px 9px;
 }

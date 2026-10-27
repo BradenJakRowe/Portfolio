@@ -142,3 +142,7 @@ h1, h2, h3, .home-button, .nav-links li a {
     border-radius: 8px;
     padding: 6px 9px;
 }
+
+.project-footer{
+    padding-top: 9px;
+}

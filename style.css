@@ -146,3 +146,25 @@ h1, h2, h3, .home-button, .nav-links li a {
 .project-footer{
     padding-top: 9px;
 }
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.skill-list span {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    background: var(--surface-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+
+}
